@@ -133,16 +133,17 @@
 						<!-- Elements -->
 							<article id="elements">
 								<h2 class="major">Cheat Sheets</h2>
-
+								<hr />
 								<section>
 									<h3 class="major">How to improve Team productivity!</h3>
 									<p>There is a good information and link from Microsoft for good suggestions: <a href="https://clouddamcdnprodep.azureedge.net/gdc/gdcCHjl9p/original">PDF Link</a></p>
 								</section>
+								<hr />
 								<section>
 									<h3 class="major">My blogs!</h3>
 									<p>There is a good information and link from me: <a href="https://manishkutar.wordpress.com/" target="_blank" class="icon brands fa-wordpress"><span class="label">Wordpress</span></a></p>
 								</section>
-								
+								<hr />
 								<section>
 									<h3 class="major">Text</h3>
 									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
@@ -179,9 +180,19 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 										<li>Felis enim feugiat.</li>
 									</ul>
 
-									<h4>Automation Scrips</h4>
+									<h4>Automation Scripts</h4>
 									<ul class="alt">
-										<li>Publish extensions.</li>
+										<li>Publish extensions.
+											<pre><code>i = 0;
+
+												while (!deck.isInOrder()) {
+													print 'Iteration ' + i;
+													deck.shuffle();
+													i++;
+												}
+												
+												print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+										</li>
 										<li>.</li>
 										<li>.</li>
 									</ul>
